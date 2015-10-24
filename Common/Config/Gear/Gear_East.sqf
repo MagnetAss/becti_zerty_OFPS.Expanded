@@ -330,6 +330,55 @@ _i = _i		+ ["3Rnd_UGL_FlareCIR_F"];
 _u = _u		+ [1];
 _p = _p		+ [20];
 
+//SS83 RHS AMMO
+
+
+_i = _i		+ ["rhs_mag_9k32_rocket"];
+_u = _u		+ [3];
+_p = _p		+ [250];
+
+_i = _i		+ ["rhs_rpg7_PG7VL_mag"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["rhs_rpg7_PG7VR_mag"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+
+_i = _i		+ ["rhs_rpg7_OG7V_mag"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["rhs_rpg7_TBG7V_mag"];
+_u = _u		+ [0];
+_p = _p		+ [250];
+
+_i = _i		+ ["rhs_100Rnd_762x54mmR"];
+_u = _u		+ [1];
+_p = _p		+ [100];
+
+_i = _i		+ ["rhs_100Rnd_762x54mmR_green"];
+_u = _u		+ [1];
+_p = _p		+ [100];
+
+_i = _i		+ ["rhs_45Rnd_545x39_AK"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhs_45Rnd_545x39_AK_green"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhs_30Rnd_545x39_AK_no_tracers"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhs_10Rnd_762x54mmR_7N1"];
+_u = _u		+ [2];
+_p = _p		+ [50];
+
+
+
 //--- Weapons (Nested array elements are defined but skiped in the gear menu)
 _i = _i		+ ["hgun_PDW2000_F"];
 _u = _u		+ [0];
@@ -546,6 +595,41 @@ _p = _p		+ [7];
 _i = _i		+ ["hgun_Pistol_heavy_02_F"];
 _u = _u		+ [1];
 _p = _p		+ [10];
+
+//SS83 RHS GUNS
+
+_i = _i		+ ["rhs_weap_ak74m"];
+_u = _u		+ [0];
+_p = _p		+ [500];
+
+_i = _i		+ ["rhs_weap_ak103"];
+_u = _u		+ [1];
+_p = _p		+ [600];
+
+_i = _i		+ ["rhs_weap_svd"];
+_u = _u		+ [2];
+_p = _p		+ [600];
+
+_i = _i		+ ["rhs_weap_rpk74m"];
+_u = _u		+ [1];
+_p = _p		+ [700];
+
+_i = _i		+ ["rhs_weap_pkm"];
+_u = _u		+ [2];
+_p = _p		+ [800];
+
+_i = _i		+ ["rhs_pkp_base"];
+_u = _u		+ [1];
+_p = _p		+ [800];
+
+
+_i = _i		+ ["rhs_weap_rpg7"];
+_u = _u		+ [0];
+_p = _p		+ [800];
+
+_i = _i		+ ["rhs_weap_strela"];
+_u = _u		+ [3];
+_p = _p		+ [3000];
 
 //--- Uniforms
 _i = _i		+ ["U_O_CombatUniform_ocamo"];
