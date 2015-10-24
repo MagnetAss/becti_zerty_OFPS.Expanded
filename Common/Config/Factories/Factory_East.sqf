@@ -80,6 +80,16 @@ _u 			= ["O_APC_Tracked_02_cannon_F"];
 _u = _u		+ ['O_APC_Wheeled_02_rcws_F'];
 _u = _u		+ ["O_MBT_02_cannon_F"];
 _u = _u		+ ["O_APC_Tracked_02_AA_F"];
+//SS83 RHS HEAVY
+_u = _u		+ ["rhs_btr70_vdv"];
+_u = _u		+ ["rhs_btr80a_vdv"];
+_u = _u		+ ["rhs_brm1k_vmf"];
+_u = _u		+ ["rhs_bmp3m_msv"];
+_u = _u		+ ["rhs_bmp2d_vmf"];
+_u = _u		+ ["rhs_bmp1k_vmf"];
+_u = _u		+ ["rhs_t72bc_tv"];
+_u = _u		+ ["rhs_t80um"];
+_u = _u		+ ["rhs_2s3_tv"];
 if !(MADE_FOR_STRATIS) then
 {_u = _u		+ ["O_MBT_02_arty_F"];  
  _u = _u		+ ["B_MBT_01_mlrs_F"];  
@@ -107,6 +117,23 @@ _u = _u		+ ["O_Heli_Transport_04_bench_F"];
 _u = _u		+ ["O_Heli_Transport_04_covered_F"];
 _u = _u		+ ["O_Heli_Transport_04_medevac_F"];
 _u = _u		+ ["O_Heli_Transport_04_repair_F"];
+
+//SS83 RHS AIR
+_u = _u		+ ["O_UCSV_01"];
+_u = _u		+ ["RU_PAKFA_F"];
+_u = _u		+ ["Heli_light_03_Unarmed_CSAT"];
+_u = _u		+ ["Heli_light_03_Armed_CSAT"];
+_u = _u		+ ["O_Plane_CAS_02_F"];
+_u = _u		+ ["sab_SU34_O_CAP"];
+_u = _u		+ ["JS_JC_SU35"];
+_u = _u		+ ["sab_SU34_O_CAP"];
+_u = _u		+ ["RHS_Su25SM_vvs"];
+_u = _u		+ ["sab_SU34_O_LGB"];
+_u = _u		+ ["Heli_Transport_02_CSAT"];
+_u = _u		+ ["LDL_C130J"];
+_u = _u		+ ["Buzzard_CAS_CSAT"];
+
+
 /*
 _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
