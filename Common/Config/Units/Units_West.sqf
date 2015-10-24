@@ -292,6 +292,43 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
+//SS83 RHS Light vehicles
+
+_c = _c + ['rhsusf_rg33_m2_wd'];
+_p = _p + [''];
+_n = _n + [(format ["RG 33 MRAP HMG"])];
+_o = _o + [5000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy'];
+_p = _p + [''];
+_n = _n + [(format ["Heavy Truck HMG"])];
+_o = _o + [5000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_m1025_w_s_m2_10'];
+_p = _p + [''];
+_n = _n + [(format ["HMMWV HMG"])];
+_o = _o + [2000];
+_t = _t + [20];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_m1025_w_s_mk19_10'];
+_p = _p + [''];
+_n = _n + [(format ["HMMWV GMG"])];
+_o = _o + [3000];
+_t = _t + [20];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
 
 _c = _c + ['B_APC_Wheeled_01_cannon_F'];
 _p = _p + [''];
@@ -369,8 +406,88 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+//SS83 RHS HEAVY VEHICLES
 
+_c = _c + ['rhsusf_m1a1aimwd_usarmy'];
+_p = _p + [''];
+_n = _n + [(format ["M1A1"])];
+_o = _o + [30000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
 
+_c = _c + ['rhsusf_m1a2sep1wd_usarmy'];
+_p = _p + [''];
+_n = _n + [(format ["M1A2 System Enhancement Package"])];
+_o = _o + [35000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_m1a2sep1tuskiwd_usarmy'];
+_p = _p + [''];
+_n = _n + [(format ["M1A2 SEP + Tank Urban Survival Kit"])];
+_o = _o + [40000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['RHS_M2A2_wd'];
+_p = _p + [''];
+_n = _n + [(format ["M2A2 IFV"])];
+_o = _o + [15000];
+_t = _t + [20];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['RHS_M2A2_BUSKI_WD'];
+_p = _p + [''];
+_n = _n + [(format ["M2A2 IFV Bradley Urban Survival Kit I"])];
+_o = _o + [20000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['RHS_M2A3_wd'];
+_p = _p + [''];
+_n = _n + [(format ["M2A3 IFV"])];
+_o = _o + [22000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['RHS_M2A3_BUSKIII_wd'];
+_p = _p + [''];
+_n = _n + [(format ["M2A3 IFV Bradley Urban Survival Kit III"])];
+_o = _o + [25000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_m109_usarmy'];
+_p = _p + [''];
+_n = _n + [(format ["M109 SPG"])];
+_o = _o + [90000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['RHS_M6_wd'];
+_p = _p + [''];
+_n = _n + [(format ["M6 LINEBACKER AA"])];
+_o = _o + [18000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
 
 _c = _c + ['B_Truck_01_Repair_F'];  
 _p = _p + [''];
@@ -574,7 +691,188 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+//SS83 RHS AIR UNITS
 
+_c = _c + ['LDL_C130J'];
+_p = _p + [''];
+_n = _n + [(format ["Gunship Placeholder/Test"])];
+_o = _o + [100000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+
+_c = _c + ['RHS_AH1Z_wd_CS'];
+_p = _p + [''];
+_n = _n + [(format ["AH1Z CAS"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH1Z_wd_GS'];
+_p = _p + [''];
+_n = _n + [(format ["AH1Z Ground Suppression"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64D_wd_GS'];
+_p = _p + [''];
+_n = _n + [(format ["AH64D Ground Suppression"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64D_wd_CS'];
+_p = _p + [''];
+_n = _n + [(format ["AH64D CAS"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_UH1Y_UNARMED'];
+_p = _p + [''];
+_n = _n + [(format ["UH1Y Transport"])];
+_o = _o + [4000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_UH1Y'];
+_p = _p + [''];
+_n = _n + [(format ["UH1Y Ground Suppression"])];
+_o = _o + [9000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_UH60M'];
+_p = _p + [''];
+_n = _n + [(format ["UH60M Transport"])];
+_o = _o + [5000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_UH60M_MEV2'];
+_p = _p + [''];
+_n = _n + [(format ["UH60M Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_o = _o + [12000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_CH_47F'];
+_p = _p + [''];
+_n = _n + [(format ["CH47 Transport"])];
+_o = _o + [8000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['USAF_C130J_Cargo'];
+_p = _p + [''];
+_n = _n + [(format ["C-130"])];
+_o = _o + [15000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['USAF_CV22IDWS'];
+_p = _p + [''];
+_n = _n + [(format ["CV-22 Osprey IDWS"])];
+_o = _o + [20000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_A10'];
+_p = _p + [''];
+_n = _n + [(format ["A10 CAS"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['usaf_f22'];
+_p = _p + [''];
+_n = _n + [(format ["F-22 CAP"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['USAF_F35A'];
+_p = _p + [''];
+_n = _n + [(format ["F-35"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['USAF_F16'];
+_p = _p + [''];
+_n = _n + [(format ["F-16"])];
+_o = _o + [50000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['USAF_HH60G'];
+_p = _p + [''];
+_n = _n + [(format ["HH-60G Pave Hawk"])];
+_o = _o + [10000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['USAF_MQ9'];
+_p = _p + [''];
+_n = _n + [(format ["MQ-9 Predator"])];
+_o = _o + [30000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['USAF_RQ4A'];
+_p = _p + [''];
+_n = _n + [(format ["RQ4A Global Hawk"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+//_c = _c + ['B_UCSV_01'];
+//_p = _p + [''];
+//_n = _n + [(format ["USCV Cargo Drone"])];
+//_o = _o + [5000];
+//_t = _t + [50];
+//_u = _u + [1];
+//_f = _f + [CTI_FACTORY_AIR];
+//_s = _s + [""];
 
 _c = _c + ['B_Boat_Transport_01_F'];
 _p = _p + [''];
