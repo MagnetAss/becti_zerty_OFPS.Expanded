@@ -75,6 +75,13 @@ _u = _u		+ ['B_Slingload_01_Medevac_F'];
 _u = _u		+ ['I_MRAP_03_F'];
 _u = _u		+ ['I_MRAP_03_hmg_F'];
 _u = _u		+ ['I_MRAP_03_gmg_F'];
+//SS83 RHS LIGHT
+_u = _u		+ ["rhsusf_rg33_m2_wd"];
+_u = _u		+ ["rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy"];
+_u = _u		+ ["rhsusf_m1025_w_s_m2_10"];
+_u = _u		+ ["rhsusf_m1025_w_s_mk19_10"];
+
+
 */
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
@@ -91,6 +98,16 @@ _u = _u		+ ["B_MBT_01_mlrs_F"];};
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
 _u = _u		+ ['I_APC_tracked_03_cannon_F'];
 _u = _u		+ ['I_MBT_03_cannon_F'];
+//SS83 RHS HEAVY
+_u = _u		+ ["rhsusf_m1a1aimwd_usarmy"];
+_u = _u		+ ["rhsusf_m1a2sep1wd_usarmy"];
+_u = _u		+ ["rhsusf_m1a2sep1tuskiwd_usarmy"];
+_u = _u		+ ["RHS_M2A2_wd"];
+_u = _u		+ ["RHS_M2A2_BUSKI_WD"];
+_u = _u		+ ["RHS_M2A3_wd"];
+_u = _u		+ ["RHS_M2A3_BUSKIII_wd"];
+_u = _u		+ ["rhsusf_m109_usarmy"];
+_u = _u		+ ["RHS_M6_wd"];
 */
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
@@ -105,6 +122,26 @@ _u = _u		+ ["B_UAV_02_F"];
 _u = _u		+ ["B_Plane_CAS_01_F"];
 _u = _u		+ ['I_Heli_light_03_unarmed_F'];
 _u = _u		+ ['I_Heli_Transport_02_F'];
+//SS83 RHS AIR
+_u = _u		+ ["LDL_C130J"];
+_u = _u		+ ["RHS_AH1Z_wd_CS"];
+_u = _u		+ ["RHS_AH1Z_wd_GS"];
+_u = _u		+ ["RHS_AH64D_wd_GS"];
+_u = _u		+ ["RHS_AH64D_wd_CS"];
+_u = _u		+ ["RHS_UH1Y_UNARMED"];
+_u = _u		+ ["RHS_UH1Y"];
+_u = _u		+ ["RHS_UH60M"];
+_u = _u		+ ["RHS_UH60M_MEV"];
+_u = _u		+ ["RHS_CH_47F"];
+_u = _u		+ ["USAF_C130J_Cargo"];
+_u = _u		+ ["RHS_A10"];
+_u = _u		+ ["usaf_f22"];
+_u = _u		+ ["USAF_F35A"];
+_u = _u		+ ["USAF_F16"];
+_u = _u		+ ["USAF_HH60G"];
+_u = _u		+ ["USAF_MQ9"];
+_u = _u		+ ["USAF_RQ4A"];
+_u = _u		+ ["B_UCSV_01"];
 /*
 _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
