@@ -94,7 +94,7 @@ _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
 _classes = _classes 		+ [["Land_Radar_Small_F", "Land_Radar_Small_ruins_F"]];
 _prices = _prices 			+ [20000];
 _times = _times 			+ [140];
-_placements = _placements 	+ [[90, 35]];
+_placements = _placements 	+ [[90, 45]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", 1.2]]];  //with value of 1.2 = 12 slammer ap shots
 
 _headers = _headers 		+ [[CTI_AMMO, "Ammo Depot", "Ammo"]];
