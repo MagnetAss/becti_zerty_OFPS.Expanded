@@ -320,6 +320,40 @@ _i = _i		+ ["6Rnd_RedSignal_F"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
+//SS83 RHS AMMO
+
+_i = _i		+ ["rhsusf_8Rnd_00Buck"];
+_u = _u		+ [0];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_200Rnd_556x45_soft_pouch"];
+_u = _u		+ [1];
+_p = _p		+ [250];
+
+_i = _i		+ ["rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer"];
+_u = _u		+ [0];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhs_mag_M441_HE"];
+_u = _u		+ [2];
+_p = _p		+ [250];
+
+_i = _i		+ ["rhs_mag_M433_HEDP"];
+_u = _u		+ [3];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhs_m136_mag"];
+_u = _u		+ [0];
+_p = _p		+ [250];
+
+_i = _i		+ ["rhs_fim92_mag"];
+_u = _u		+ [2];
+_p = _p		+ [250];
+
+_i = _i		+ ["rhs_fgm148_magazine_AT"];
+_u = _u		+ [3];
+_p = _p		+ [350];
+
 
 //--- Weapons
 _i = _i		+ ["hgun_PDW2000_F"];
@@ -629,6 +663,48 @@ _p = _p		+ [10];
 _i = _i		+ ["hgun_Pistol_Signal_F"];
 _u = _u		+ [0];
 _p = _p		+ [15];
+
+//SS83 RHS WEAPONS
+
+_i = _i		+ ["rhs_weap_M320_Base_F"];
+_u = _u		+ [2];
+_p = _p		+ [800];
+
+_i = _i		+ ["rhs_weap_m4_carryhandle"];
+_u = _u		+ [1];
+_p = _p		+ [550];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII"];
+_u = _u		+ [2];
+_p = _p		+ [650];
+
+_i = _i		+ ["rhs_weap_m16a4_carryhandle"];
+_u = _u		+ [0];
+_p = _p		+ [450];
+
+_i = _i		+ ["rhs_weap_m4_m320"];
+_u = _u		+ [1];
+_p = _p		+ [650];
+
+_i = _i		+ ["rhs_M249_base"];
+_u = _u		+ [1];
+_p = _p		+ [750];
+
+_i = _i		+ ["rhs_weap_M590_8RD"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+
+_i = _i		+ ["rhs_weap_M136"];
+_u = _u		+ [0];
+_p = _p		+ [650];
+
+_i = _i		+ ["rhs_weap_fim92"];
+_u = _u		+ [2];
+_p = _p		+ [2000];
+
+_i = _i		+ ["rhs_weap_fgm148"];
+_u = _u		+ [3];
+_p = _p		+ [3000];
 
 //--- Uniforms
 _i = _i		+ ["U_B_CombatUniform_mcam"];
