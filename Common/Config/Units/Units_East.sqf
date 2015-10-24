@@ -360,6 +360,88 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+//SS83 RHS HEAVY UNITS
+
+_c = _c + ['rhs_btr70_vdv'];
+_p = _p + [''];
+_n = _n + [(format ["BTR70"])];
+_o = _o + [4000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhs_btr80a_vdv'];
+_p = _p + [''];
+_n = _n + [(format ["BTR80A"])];
+_o = _o + [8000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhs_bmp2d_vmf'];
+_p = _p + [''];
+_n = _n + [(format ["BMP2D"])];
+_o = _o + [8000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhs_bmp1k_vmf'];
+_p = _p + [''];
+_n = _n + [(format ["BMP1K AFV"])];
+_o = _o + [6000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhs_brm1k_vmf'];
+_p = _p + [''];
+_n = _n + [(format ["BRM1K CV"])];
+_o = _o + [7000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhs_t72bc_tv'];
+_p = _p + [''];
+_n = _n + [(format ["T-72"])];
+_o = _o + [15000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhs_t80um'];
+_p = _p + [''];
+_n = _n + [(format ["T-80"])];
+_o = _o + [20000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhs_2s3_tv'];
+_p = _p + [''];
+_n = _n + [(format ["2S3 Akatsiya SPG"])];
+_o = _o + [80000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['rhs_bmp3m_msv'];
+_p = _p + [''];
+_n = _n + [(format ["BMP3"])];
+_o = _o + [18000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
 
 _c = _c + ['O_Truck_03_repair_F'];
 _p = _p + [''];
@@ -498,14 +580,14 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['I_Heli_Transport_02_F']; 
-_p = _p + [''];
-_n = _n + [(format ["Mohawk Lift"])];
-_o = _o + [10000];
-_t = _t + [40];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
+//_c = _c + ['I_Heli_Transport_02_F']; 
+//_p = _p + [''];
+//_n = _n + [(format ["Mohawk Lift"])];
+//_o = _o + [10000];
+//_t = _t + [40];
+//_u = _u + [1];
+//_f = _f + [CTI_FACTORY_AIR];
+//_s = _s + [""];
 
 
 _c = _c + ['O_Heli_Transport_04_F']; 
@@ -619,7 +701,178 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+//SS83 RHS Air
 
+_c = _c + ['RHS_Mi24P_vvs'];
+_p = _p + [''];
+_n = _n + [(format ["Mi24P Fuel Air Bombs"])];
+_o = _o + [50000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_Ka52_vvs'];
+_p = _p + [''];
+_n = _n + [(format ["Ka52 CAS"])];
+_o = _o + [80000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_Mi8AMTSh_FAB_vvs'];
+_p = _p + [''];
+_n = _n + [(format ["Mi 8 Fuel Air Bombs"])];
+_o = _o + [15000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_Mi8AMTSh_vvs'];
+_p = _p + [''];
+_n = _n + [(format ["Mi 8 Ground Suppression"])];
+_o = _o + [15000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_Mi24P_AT_vvs'];
+_p = _p + [''];
+_n = _n + [(format ["Mi 24P CAS"])];
+_o = _o + [35000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_Mi24Vt_vvs'];
+_p = _p + [''];
+_n = _n + [(format ["Mi 24 Vehicle Transport"])];
+_o = _o + [16000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['Buzzard_CAS_CSAT'];
+_p = _p + [''];
+_n = _n + [(format ["Buzzard CAS"])];
+_o = _o + [40000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['LDL_C130J'];
+_p = _p + [''];
+_n = _n + [(format ["Gunship"])];
+_o = _o + [100000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['Heli_Transport_02_CSAT'];
+_p = _p + [''];
+_n = _n + [(format ["Mohawk Heavy Lift"])];
+_o = _o + [10000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_SU34_O_LGB'];
+_p = _p + [''];
+_n = _n + [(format ["SU-34 LGB"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_Su25SM_vvs'];
+_p = _p + [''];
+_n = _n + [(format ["SU-25 FAB"])];
+_o = _o + [60000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_SU34_O_CAP'];
+_p = _p + [''];
+_n = _n + [(format ["SU-34 CAP"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['JS_JC_SU35'];
+_p = _p + [''];
+_n = _n + [(format ["SU-35 CAP"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_SU34_O_CAP'];
+_p = _p + [''];
+_n = _n + [(format ["SU-34 CAP"])];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['O_Plane_CAS_02_F'];
+_p = _p + [''];
+_n = _n + [(format ["A-50 CAP"])];
+_o = _o + [90000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['Heli_light_03_Armed_CSAT'];
+_p = _p + [''];
+_n = _n + [(format ["Armed Hellcat"])];
+_o = _o + [35000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['Heli_light_03_Unarmed_CSAT'];
+_p = _p + [''];
+_n = _n + [(format ["Unarmed Hellcat"])];
+_o = _o + [4000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RU_PAKFA_F'];
+_p = _p + [''];
+_n = _n + [(format ["Pakfa Observation Drone"])];
+_o = _o + [3000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+//_c = _c + ['O_UCSV_01'];
+//_p = _p + [''];
+//_n = _n + [(format ["Unmanned Cargo Vehicle"])];
+//_o = _o + [5000];
+//_t = _t + [50];
+//_u = _u + [1];
+//_f = _f + [CTI_FACTORY_AIR];
+//_s = _s + [""];
 
 _c = _c + ['O_Boat_Transport_01_F'];
 _p = _p + [''];
