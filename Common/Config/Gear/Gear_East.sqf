@@ -598,19 +598,19 @@ _p = _p		+ [10];
 
 //SS83 RHS GUNS
 
-_i = _i		+ ["rhs_weap_ak74m"];
+_i = _i		+ ["rhs_weap_ak74m_npz"];
 _u = _u		+ [0];
 _p = _p		+ [500];
 
-_i = _i		+ ["rhs_weap_ak103"];
+_i = _i		+ ["rhs_weap_ak103_npz"];
 _u = _u		+ [1];
 _p = _p		+ [600];
 
-_i = _i		+ ["rhs_weap_svd"];
+_i = _i		+ ["rhs_weap_svd_npz"];
 _u = _u		+ [2];
 _p = _p		+ [600];
 
-_i = _i		+ ["rhs_weap_rpk74m"];
+_i = _i		+ ["rhs_weap_rpk74m_npz"];
 _u = _u		+ [1];
 _p = _p		+ [700];
 
@@ -1234,6 +1234,10 @@ _u = _u		+ [1];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_Holosight"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["rhs_acc_pgo7v"]; //RHS RPG SCOPE
 _u = _u		+ [0];
 _p = _p		+ [200];
 
