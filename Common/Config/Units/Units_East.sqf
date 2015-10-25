@@ -854,10 +854,10 @@ _s = _s + [""];
 
 _c = _c + ['RU_PAKFA_F'];
 _p = _p + [''];
-_n = _n + [(format ["Pakfa Observation Drone"])];
-_o = _o + [3000];
+_n = _n + [(format ["Pakfa AA Drone"])];
+_o = _o + [40000];
 _t = _t + [50];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
