@@ -90,9 +90,15 @@ switch (true) do {
 	case (_value > 400 && _value <= 450) : {
 		_pool_units = [[["SOLDIER", 3], ["SOLDIER_GL", 1], ["SOLDIERS_AT_LIGHT", 2, 37], ["SOLDIERS_AT_MEDIUM", 1, 82], ["SOLDIERS_AT_HEAVY", 2, 75], ["SOLDIER_AA", 1], ["SOLDIER_MEDIC", 2], ["SOLDIERS_MG", 2], ["SOLDIERS_ENGINEER", 1, 75], ["SOLDIERS_SPECOPS", 1], ["SOLDIERS_SNIPERS", 1]], [["VEHICLES_LIGHT", 1, 30], ["VEHICLES_MEDIUM", 1, 42], ["VEHICLES_HEAVY", 1, 40], ["VEHICLES_AA_LIGHT", 1, 30]]];
 	};
-	case (_value > 450) : {
+	case (_value > 450 && _value <= 550) : {
 		_pool_units = [[["SOLDIER", 3], ["SOLDIER_GL", 1], ["SOLDIERS_AT_LIGHT", 2, 35], ["SOLDIERS_AT_MEDIUM", 1, 84], ["SOLDIERS_AT_HEAVY", 2, 75], ["SOLDIER_AA", 1], ["SOLDIER_MEDIC", 2], ["SOLDIERS_MG", 2], ["SOLDIERS_ENGINEER", 1, 75], ["SOLDIERS_SPECOPS", 1], ["SOLDIERS_SNIPERS", 1]], [["VEHICLES_LIGHT", 1, 27], ["VEHICLES_MEDIUM", 1, 45], ["VEHICLES_HEAVY", 1, 42], ["VEHICLES_AA_LIGHT", 1, 30]]];
 	};
+	case (_value > 550 && _value <= 560) : {
+		_pool_units = [[["NAVAL_INFANTRY", 6, 99], ["NAVAL_BOATS", 4, 99], ["NAVAL_ASSAULT_BOATS", 4, 75], ["NAVAL_ARMORED", 1, 25]]];
+	};	
+	case (_value > 560) : {
+		_pool_units = [[["SOLDIER", 3], ["SOLDIER_GL", 1], ["SOLDIERS_AT_LIGHT", 2, 35], ["SOLDIERS_AT_MEDIUM", 1, 84], ["SOLDIERS_AT_HEAVY", 3, 75], ["SOLDIER_AA", 2], ["SOLDIER_MEDIC", 2], ["SOLDIERS_MG", 3], ["SOLDIERS_ENGINEER", 1, 75], ["SOLDIERS_SPECOPS", 2], ["SOLDIERS_SNIPERS", 2]], [["VEHICLES_LIGHT", 2, 27], ["VEHICLES_MEDIUM", 2, 45], ["VEHICLES_HEAVY", 2, 42], ["VEHICLES_AA_LIGHT", 2, 60]]];
+	};	
 };
 
 //--- Parse properly the pool.

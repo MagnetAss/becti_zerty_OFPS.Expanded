@@ -50,8 +50,8 @@ class Mission
 		"rhsusf_c_rg33",
 		"rhsusf_c_m109",
 		"rhs_optics",
-		"rhsusf_optics"
-		
+		"rhsusf_optics",
+		"jdg_carrier"
 	};
 	addOnsAuto[]=
 	{
@@ -62,49 +62,14 @@ class Mission
 		"3DEN",
 		"a3_modules_f_curator_curator",
 		"A3_Structures_F_Mil_Flags",
-		"a3_map_altis",
-		"USAF_A10",
-		"USAF_C130J",
-		"USAF_CV22IDWS",
-		"usaf_f22",
-		"USAF_F35A",
-		"USAF_F16",
-		"USAF_helos",
-		"csat_ac130u",
-		"csat_vehicles",
-		"plane_fighter_03_csat",
-		"sab_SU34",
-		"UCSV",
-		"USAF_MQ9",
-		"USAF_RQ4A",
-		"RHS_US_A2_AirImport",
-		"rhs_c_t72",
-		"rhs_c_tanks",
-		"rhs_c_2s3",
-		"A3_Air_F_PAKFA",
-		"rhs_c_a2port_air",
-		"JS_JC_SU35",
-		"A3_Air_F_EPC_Plane_CAS_02",
-		"Heli_light_03",
-		"rhs_c_btr",
-		"rhs_c_bmp",
-		"rhs_c_bmp3",
-		"rhsusf_c_m113",
-		"rhsusf_c_hmmwv",
-		"rhsusf_vehicles",
-		"RHS_US_A2Port_Armor",
-		"rhsusf_c_m1a1",
-		"rhsusf_c_m1a2",
-		"rhsusf_c_fmtv",
-		"rhsusf_c_rg33",
-		"rhsusf_c_m109",
+		"jdg_carrier",
 		"a3_map_altis"
 	};
 	randomSeed=7374927;
 	class Intel
 	{
-		briefingName="BECTI - Zerty - OFPS";
-		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin)";
+		briefingName="BECTI - Zerty - OFPS Expanded";
+		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin), All out OFPS MOD EDITION";
 		resistanceWest=0;
 		timeOfChanges=24720;
 		startWind=0;
@@ -862,7 +827,6 @@ class Mission
 						class Item3
 						{
 							value="""A3_Modules_F_Curator_Effects"",""A3_Modules_F_Curator_Misc"",""A3_Modules_F_Curator_Lightning"",""A3_Characters_F_Civil"",""A3_Modules_F_Curator_Environment"",""A3_Modules_F_Curator_Ordnance"",""A3_Modules_F_Curator_Multiplayer"",""A3_Modules_F_Curator_Animals"",""A3_Modules_F_Curator_Mines"",""A3_Characters_F_BLUFOR"",""A3_Characters_F_OPFOR"",""A3_Characters_F_Gamma"",""A3_Signs_F"",""A3_Static_F"",""A3_Static_F_Beta_Mortar_01"",""A3_Weapons_F_Ammoboxes"",""A3_Structures_F_Mil_BagFence"",""A3_Structures_F_Mil_BagBunker"",""A3_Characters_F_INDEP""";
-
 							parentCls="ModuleCuratorAddAddons_F";
 							typeName="Addons";
 						};
@@ -999,7 +963,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=50;
+		items=52;
 		class Item0
 		{
 			position[]={20825.619,32.838898,6824.252};
@@ -1020,7 +984,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town1";
-			init="nullReturn = [this, ""Pyrgos"", resistance, 250] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Pyrgos"", resistance, 250,""Town50""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item2
 		{
@@ -1097,7 +1061,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town8";
-			init="nullReturn = [this, ""Anthrakia"", resistance, 125] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Anthrakia"", resistance, 125,""Town9""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item9
 		{
@@ -1108,7 +1072,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town9";
-			init="nullReturn = [this, ""Telos"", resistance, 200] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Telos"", resistance, 600] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item10
 		{
@@ -1229,7 +1193,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town11";
-			init="nullReturn = [this, ""Airbase"", resistance, 300] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Airbase"", resistance, 300,""Town50""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item21
 		{
@@ -1350,7 +1314,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town32";
-			init="nullReturn = [this, ""Kalithea"", resistance, 125] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Kalithea"", resistance, 125,""Town9""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item32
 		{
@@ -1493,7 +1457,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town44";
-			init="nullReturn = [this, ""Stadium"", resistance, 140] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Stadium"", resistance, 140,""Town20""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item45
 		{
@@ -1549,6 +1513,28 @@ class Mission
 			skill=0.60000002;
 			text="Town49";
 			init="nullReturn = [this, ""Nidasos"", resistance, 145] execVM ""Common\Init\Init_Location.sqf""";
+		};
+		class Item50
+		{
+			position[]={15178.625,0.0032882714,14015.64};
+			offsetY=17;
+			id=110;
+			side="EMPTY";
+			vehicle="FlagPole_F";
+			leader=1;
+			skill=0.60000002;
+			text="Town50";
+			init="nullReturn = [this, ""Nimitz"", resistance, 555,""Town29""] execVM ""Common\Init\Init_Location.sqf""";
+		};
+		class Item51
+		{
+			position[]={15198.572,-0.00069454266,14064.765};
+			azimut=42.323116;
+			id=111;
+			side="EMPTY";
+			vehicle="JDG_carrier_Spawner";
+			leader=1;
+			skill=0.60000002;
 		};
 	};
 	class Markers
