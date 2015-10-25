@@ -618,7 +618,7 @@ _i = _i		+ ["rhs_weap_pkm"];
 _u = _u		+ [2];
 _p = _p		+ [800];
 
-_i = _i		+ ["rhs_pkp_base"];
+_i = _i		+ ["rhs_weap_pkp"];
 _u = _u		+ [1];
 _p = _p		+ [800];
 
