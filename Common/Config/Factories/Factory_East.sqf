@@ -132,6 +132,14 @@ _u = _u		+ ["sab_SU34_O_LGB"];
 _u = _u		+ ["Heli_Transport_02_CSAT"];
 _u = _u		+ ["LDL_C130J"];
 _u = _u		+ ["Buzzard_CAS_CSAT"];
+_u = _u		+ ["RHS_Mi24P_vvs"];
+_u = _u		+ ["RHS_Ka52_vvs"];
+_u = _u		+ ["RHS_Mi8AMTSh_FAB_vvs"];
+_u = _u		+ ["RHS_Mi8AMTSh_vvs"];
+_u = _u		+ ["RHS_Mi24P_AT_vvs"];
+_u = _u		+ ["RHS_Mi24Vt_vvs"];
+
+
 
 
 /*
