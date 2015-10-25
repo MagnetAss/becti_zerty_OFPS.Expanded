@@ -71,16 +71,16 @@ _u = _u		+ ["B_UGV_01_F"];
 _u = _u		+ ["B_UGV_01_rcws_F"];
 _u = _u  	+ ["B_Truck_01_medical_F"];
 _u = _u		+ ['B_Slingload_01_Medevac_F'];
-/*
-_u = _u		+ ['I_MRAP_03_F'];
-_u = _u		+ ['I_MRAP_03_hmg_F'];
-_u = _u		+ ['I_MRAP_03_gmg_F'];
 //SS83 RHS LIGHT
 _u = _u		+ ["rhsusf_rg33_m2_wd"];
 _u = _u		+ ["rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy"];
 _u = _u		+ ["rhsusf_m1025_w_s_m2_10"];
 _u = _u		+ ["rhsusf_m1025_w_s_mk19_10"];
 
+/*
+_u = _u		+ ['I_MRAP_03_F'];
+_u = _u		+ ['I_MRAP_03_hmg_F'];
+_u = _u		+ ['I_MRAP_03_gmg_F'];
 
 */
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
@@ -91,13 +91,6 @@ _u = _u  	+ ["B_APC_Wheeled_01_cannon_F"];
 _u = _u		+ ["B_APC_Tracked_01_AA_F"];
 _u = _u		+ ["B_MBT_01_cannon_F"];
 _u = _u		+ ["B_MBT_01_TUSK_F"];
-if !(MADE_FOR_STRATIS) then {
-_u = _u		+ ["B_MBT_01_arty_F"];
-_u = _u		+ ["B_MBT_01_mlrs_F"];};
-/*
-_u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
-_u = _u		+ ['I_APC_tracked_03_cannon_F'];
-_u = _u		+ ['I_MBT_03_cannon_F'];
 //SS83 RHS HEAVY
 _u = _u		+ ["rhsusf_m1a1aimwd_usarmy"];
 _u = _u		+ ["rhsusf_m1a2sep1wd_usarmy"];
@@ -108,6 +101,13 @@ _u = _u		+ ["RHS_M2A3_wd"];
 _u = _u		+ ["RHS_M2A3_BUSKIII_wd"];
 _u = _u		+ ["rhsusf_m109_usarmy"];
 _u = _u		+ ["RHS_M6_wd"];
+if !(MADE_FOR_STRATIS) then {
+_u = _u		+ ["B_MBT_01_arty_F"];
+_u = _u		+ ["B_MBT_01_mlrs_F"];};
+/*
+_u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
+_u = _u		+ ['I_APC_tracked_03_cannon_F'];
+_u = _u		+ ['I_MBT_03_cannon_F'];
 */
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
