@@ -266,15 +266,6 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-
-
-
-
-
-
-
-
-
 _c = _c + ['O_UGV_01_F'];
 _p = _p + [''];
 _n = _n + [''];
@@ -293,7 +284,6 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-
 _c = _c + ['O_Truck_03_medical_F'];
 _p = _p + [''];
 _n = _n + [(format ["Mobile Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
@@ -302,6 +292,25 @@ _t = _t + [20];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
+
+_c = _c + ['O_APC_Wheeled_02_rcws_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [2500];
+_t = _t + [30];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['O_APC_Tracked_02_cannon_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [6000];
+_t = _t + [30];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 
 _c = _c + ['rhs_btr70_vmf']; //SS83 RHS HEAVY UNITS
 _p = _p + [''];
@@ -363,24 +372,6 @@ _n = _n + [(format ["BMP3"])];
 _o = _o + [18000];
 _t = _t + [50];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-
-_c = _c + ['O_APC_Wheeled_02_rcws_F'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [2500];
-_t = _t + [30];
-_u = _u + [0];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-
-_c = _c + ['O_APC_Tracked_02_cannon_F'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [6000];
-_t = _t + [30];
-_u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
