@@ -24,8 +24,6 @@
   # EXAMPLE #
     _position = [player, 25, 150] call CTI_CO_FNC_GetRandomPosition
 	  -> Get a random position around 25-150 meters from the player
-*/
-
 
 private["_position","_radius","_direction","_maxRadius","_minRadius"];
 
@@ -43,3 +41,4 @@ _tries=0;
 while {surfaceIsWater _position && _tries <1000}do {_direction = random 360;_radius = (random (_maxRadius - _minRadius)) + _minRadius;_position = [(_position select 0)+((sin _direction)*_radius),(_position select 1)+((cos _direction)*_radius),(_position select 2)];_tries = _tries+1;};
 
 _position
+*/
