@@ -330,6 +330,9 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+rhs_bmp1k_vmf
+
+
 _c = _c + ['rhs_bmp2d_vmf'];
 _p = _p + [''];
 _n = _n + [(format ["BMP2D"])];
