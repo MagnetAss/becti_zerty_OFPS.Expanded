@@ -825,15 +825,6 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['O_Plane_CAS_02_F'];
-_p = _p + [''];
-_n = _n + [(format ["A-50 CAP"])];
-_o = _o + [90000];
-_t = _t + [50];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
 _c = _c + ['Heli_light_03_Armed_CSAT'];
 _p = _p + [''];
 _n = _n + [(format ["Armed Hellcat"])];
@@ -857,7 +848,7 @@ _p = _p + [''];
 _n = _n + [(format ["A-50"])];
 _o = _o + [70000];
 _t = _t + [50];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
