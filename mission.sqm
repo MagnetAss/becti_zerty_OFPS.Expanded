@@ -964,7 +964,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=52;
+		items=50;
 		class Item0
 		{
 			position[]={20825.619,32.838898,6824.252};
@@ -1515,28 +1515,7 @@ class Mission
 			text="Town49";
 			init="nullReturn = [this, ""Nidasos"", resistance, 145] execVM ""Common\Init\Init_Location.sqf""";
 		};
-		class Item50
-		{
-			position[]={15178.625,0.0032882714,14015.64};
-			offsetY=17;
-			id=110;
-			side="EMPTY";
-			vehicle="FlagPole_F";
-			leader=1;
-			skill=0.60000002;
-			text="Town50";
-			init="nullReturn = [this, ""Nimitz"", resistance, 555,""Town29""] execVM ""Common\Init\Init_Location.sqf""";
-		};
-		class Item51
-		{
-			position[]={15198.572,-0.00069454266,14064.765};
-			azimut=42.323116;
-			id=111;
-			side="EMPTY";
-			vehicle="JDG_carrier_Spawner";
-			leader=1;
-			skill=0.60000002;
-		};
+
 	};
 	class Markers
 	{
