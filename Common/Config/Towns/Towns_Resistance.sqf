@@ -1,20 +1,20 @@
 with missionNamespace do {
 	//--- Infantry
-	GUER_SOLDIER = "I_G_Soldier_F";
-	GUER_SOLDIER_AA = "I_Soldier_AA_F"; 
-	GUER_SOLDIER_AR = "I_G_Soldier_AR_F";
-	GUER_SOLDIER_AT = "I_G_Soldier_AR_F"; //replaced lat with MG
-	GUER_SOLDIER_CREW = "I_crew_F";
-	GUER_SOLDIER_LAT = "I_G_Soldier_LAT_F";
-	GUER_SOLDIER_HAT = "I_G_Soldier_LAT_F";  //took out heavy AT in towns
-	GUER_SOLDIER_ENGINEER = "I_G_Soldier_exp_F";
-	GUER_SOLDIER_GL = "I_G_Soldier_GL_F";
-	GUER_SOLDIER_MEDIC = "I_G_medic_F";
+	GUER_SOLDIER = "GD_Soldier_F";
+	GUER_SOLDIER_AA = "GD_I_soldier_A_F"; 
+	GUER_SOLDIER_AR = "GD_I_soldier_AR_F";
+	GUER_SOLDIER_AT = "GD_I_soldier_AR_F"; //replaced lat with MG
+	GUER_SOLDIER_CREW = "GD_I_crew_F";
+	GUER_SOLDIER_LAT = "GD_soldier_LAT_F";
+	GUER_SOLDIER_HAT = "GD_soldier_LAT_F";  //took out heavy AT in towns
+	GUER_SOLDIER_ENGINEER = "GD_I_engineer_F";
+	GUER_SOLDIER_GL = "GD_I_soldier_GL_F";
+	GUER_SOLDIER_MEDIC = "GD_I_medic_F";
 	// GUER_SOLDIER_MG = "soldiermg";
-	GUER_SOLDIER_PILOT = "I_helipilot_F";
-	GUER_SOLDIER_SQUADLEADER = "I_G_Soldier_SL_F";
-	GUER_SOLDIER_SNIPER = "I_G_Soldier_M_F";
-	GUER_SOLDIER_TEAMLEADER = "I_G_Soldier_TL_F";
+	GUER_SOLDIER_PILOT = "GD_I_soldier_SL_F";
+	GUER_SOLDIER_SQUADLEADER = "GD_I_soldier_repair_F";
+	GUER_SOLDIER_SNIPER = "GD_I_soldier_M_F";
+	GUER_SOLDIER_TEAMLEADER = "GD_I_soldier_SL_F";
 
 	//--- Infantry - Mixed
 	// GUER_SOLDIERS_MG = [GUER_SOLDIER_MG, GUER_SOLDIER_AR];
@@ -28,12 +28,12 @@ with missionNamespace do {
 
 	//--- Vehicles
 	// GUER_VEHICLE_AA = ["aa1","aa2"];
-	GUER_VEHICLE_APC = ["I_APC_Wheeled_03_cannon_F"]; //todo: replace with real veh later on
+	GUER_VEHICLE_APC = ["GD_wheeled_IFV"]; //todo: replace with real veh later on
 	// GUER_VEHICLE_APC = ["B_APC_Wheeled_01_cannon_F", "O_APC_Wheeled_02_rcws_F", "B_APC_Tracked_01_rcws_F", "O_APC_Wheeled_02_rcws_F"]; //todo: replace with real veh later on
-	GUER_VEHICLE_ARMORED_HEAVY = ["I_MBT_03_cannon_F"];
-	GUER_VEHICLE_ARMORED_LIGHT = ["I_APC_tracked_03_cannon_F"];   
+	GUER_VEHICLE_ARMORED_HEAVY = ["mbt_03_GD"];
+	GUER_VEHICLE_ARMORED_LIGHT = ["GD_tracked_IFV"];   
 	// GUER_VEHICLE_MECHANIZED = ["mechanized1","mechanized2"];
-	GUER_VEHICLE_MOTORIZED = ["I_G_Offroad_01_armed_F", "I_G_Offroad_01_armed_F", "I_G_Offroad_01_armed_F", "I_MRAP_03_gmg_F","I_MRAP_03_hmg_F"];
+	GUER_VEHICLE_MOTORIZED = ["I_G_Offroad_01_armed_F", "I_G_Offroad_01_armed_F", "I_G_Offroad_01_armed_F", "mrap_03_GMG_GD","mrap_03_HMG_GD"];
 
 	//--- Naval
 	GUER_NAVAL_INFANTRY = ["I_diver_TL_F", "I_diver_F"];
