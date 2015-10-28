@@ -666,10 +666,6 @@ _p = _p		+ [15];
 
 //SS83 RHS WEAPONS
 
-_i = _i		+ ["rhs_weap_M320_Base_F"];
-_u = _u		+ [2];
-_p = _p		+ [800];
-
 _i = _i		+ ["rhs_weap_m4_carryhandle"];
 _u = _u		+ [1];
 _p = _p		+ [550];
