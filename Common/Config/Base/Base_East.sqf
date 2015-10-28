@@ -62,14 +62,14 @@ _placements =_placements 	+ [[180, 15]];
 _specials = _specials		+ [[["DMG_Reduce", 6]]];
 
 _headers = _headers 		+ [[CTI_BARRACKS, "Barracks", "Barracks"]];
-_classes = _classes 		+ [["Land_Cargo_House_V1_F", "Land_Cargo_House_V1_ruins_F"]];
+_classes = _classes 		+ [["TK_WarfareBBarracks_Base_EP1", "Land_Cargo_House_V1_ruins_F"]];
 _prices = _prices 			+ [5000];
 _times = _times 			+ [60];
 _placements = _placements 	+ [[180, 15]];
 _specials = _specials		+ [[["DMG_Reduce", 2]]];  // Value @ 1 = 2 AP slammer shots
 
 _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
-_classes = _classes 		+ [["Land_Medevac_HQ_V1_F", "Land_Medevac_HQ_V1_ruins_F"]];
+_classes = _classes 		+ [["TK_GUE_WarfareBLightFactory_base_EP1", "Land_Medevac_HQ_V1_ruins_F"]];
 _prices = _prices 			+ [10000];
 _times = _times 			+ [80];
 _placements = _placements 	+ [[90, 25]];
@@ -83,14 +83,14 @@ _placements = _placements 	+ [[90, 25]];
 _specials = _specials		+ [[["Connected"],["DMG_Reduce", 0.9]]];
 
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
-_classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo_HQ_V1_ruins_F"]];
+_classes = _classes 		+ [["TK_GUE_WarfareBHeavyFactory_Base_EP1", "Land_Cargo_HQ_V1_ruins_F"]];
 _prices = _prices 			+ [15000];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[90, 25]];
 _specials = _specials		+ [[["DMG_Reduce", .75]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
-_classes = _classes 		+ [["Land_Radar_Small_F", "Land_Radar_Small_ruins_F"]];
+_classes = _classes 		+ [["TK_GUE_WarfareBAircraftFactory_Base_EP1", "Land_Radar_Small_ruins_F"]];
 _prices = _prices 			+ [20000];
 _times = _times 			+ [140];
 _placements = _placements 	+ [[90, 45]];
@@ -118,7 +118,7 @@ _placements = _placements 	+ [[180, 25]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_RADAR, "Air Radar", "Air Radar"]];
-_classes =  _classes 		+ [["Land_TTowerBig_2_F", "Land_TTowerBig_2_ruins_F"]];
+_classes =  _classes 		+ [["TK_WarfareBAntiAirRadar_Base_EP1", "Land_TTowerBig_2_ruins_F"]];
 _prices =  _prices 			+ [20000];
 _times =  _times 			+ [120];
 _placements =_placements 	+ [[180, 30]];
