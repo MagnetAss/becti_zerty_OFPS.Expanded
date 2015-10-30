@@ -865,14 +865,14 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-//_c = _c + ['B_UCSV_01'];
-//_p = _p + [''];
-//_n = _n + [(format ["USCV Cargo Drone"])];
-//_o = _o + [5000];
-//_t = _t + [50];
-//_u = _u + [1];
-//_f = _f + [CTI_FACTORY_AIR];
-//_s = _s + [""];
+_c = _c + ['Burnes_LCAC_1'];
+_p = _p + [''];
+_n = _n + [(format ["Landing Hovercraft"])];
+_o = _o + [5000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_NAVAL];
+_s = _s + [""];
 
 _c = _c + ['B_Boat_Transport_01_F'];
 _p = _p + [''];
