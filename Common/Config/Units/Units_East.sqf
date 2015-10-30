@@ -844,6 +844,15 @@ _s = _s + [""];
 //_f = _f + [CTI_FACTORY_AIR];
 //_s = _s + [""];
 
+_c = _c + ['Burnes_LCAC_1'];
+_p = _p + [''];
+_n = _n + [(format ["Landing Hovercraft Placeholder"])];
+_o = _o + [5000];
+_t = _t + [50];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_NAVAL];
+_s = _s + [""];
+
 _c = _c + ['O_Boat_Transport_01_F'];
 _p = _p + [''];
 _n = _n + [''];
