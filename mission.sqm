@@ -13,7 +13,6 @@ class Mission
 		"a3_characters_f",
 		"A3_Modules_F",
 		"3DEN",
-		"Test_boat_F",
 		"rhs_c_troops",
 		"USAF_A10",
 		"USAF_C130J",
@@ -26,7 +25,6 @@ class Mission
 		"CSAT_ac130u",
 		"USAF_MQ9",
 		"USAF_RQ4A",
-		"UCSV",
 		"RHS_US_A2_AirImport",
 		"csat_vehicles",
 		"plane_fighter_03_csat",
@@ -53,8 +51,6 @@ class Mission
 		"rhsusf_c_m109",
 		"rhs_optics",
 		"rhsusf_optics",
-		"jdg_carrier",
-		"CAMisc_E_WF"
 	};
 	addOnsAuto[]=
 	{
